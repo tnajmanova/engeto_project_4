@@ -1,16 +1,16 @@
-##Průvodní listina
+## Průvodní listina
 V rámci projektu byly vytvořeny dvě tabulky s příslušnými daty pro odpovědi výzkumných otázek:
 
-1. t_tereza_najmanova_project_SQL_primary_final (pro data mezd a cen potravin za Českou republiku sjednocených na totožné porovnatelné období – společné roky) 
-2. t_tereza_najmanova_project_SQL_secondary_final (pro dodatečná data o dalších evropských státech).
+1. **t_tereza_najmanova_project_SQL_primary_final** (pro data mezd a cen potravin za Českou republiku sjednocených na totožné porovnatelné období – společné roky) 
+2. **t_tereza_najmanova_project_SQL_secondary_final** (pro dodatečná data o dalších evropských státech).
 
-pro postupné zodpovězení otázek byly vytvořeny následující views:
+Pro postupné zodpovězení otázek byly vytvořeny následující views:
 - v_vyhodnoceni_mezd
 - v_porovnani_prum_mezd
 - v_porovnani_prum_cen
 - v_meziroc_proc_rozdil_cen_mezd
 
-##Výzkumné otázky:
+## Výzkumné otázky:
 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
 2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
@@ -27,11 +27,11 @@ Pozn.: Při bližším zkoumání si všímám:
 1. častého výskytu poklesu mezd napříč odvětvími v roce 2013
 2. odvětví, které čelilo nejčastěji poklesu (4x) je Těžba a dobývání
 
-###2. otázka: Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?  
+### 2. otázka: Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?  
 
 *Odpověď na otázky:*
-v roce 2006 bylo možné si za průměrný hrubý měsíční příjem koupit 1287 kg chleba a 1437 l mléka.
-v roce 2018 bylo možné si za průměrný hrubý měsíční příjěm koupit 1342 kg chleba a 1642 l mléka.
+- v roce 2006 bylo možné si za průměrný hrubý měsíční příjem koupit 1287 kg chleba a 1437 l mléka.
+- v roce 2018 bylo možné si za průměrný hrubý měsíční příjěm koupit 1342 kg chleba a 1642 l mléka.
 
 ### 3. otázka: Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
 
@@ -73,14 +73,14 @@ Primární tabulky:
 Dodatečné tabulky:
 1. countries - Všemožné informace o zemích na světě, například hlavní město, měna, národní jídlo nebo průměrná výška populace.
 2. economies - HDP, GINI, daňová zátěž, atd. pro daný stát a rok.
-﻿
+
 Výzkumné otázky
 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
 2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
 4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
-﻿
+
 Výstupy z projektu
 Pomozte kolegům s daným úkolem. Výstupem by měly být dvě tabulky v databázi, ze kterých se požadovaná data dají získat. Tabulky pojmenujte t_{jmeno}_{prijmeni}_project_SQL_primary_final (pro data mezd a cen potravin za Českou republiku sjednocených na totožné porovnatelné období – společné roky) a t_{jmeno}_{prijmeni}_project_SQL_secondary_final (pro dodatečná data o dalších evropských státech).
 Dále připravte sadu SQL, které z vámi připravených tabulek získají datový podklad k odpovězení na vytyčené výzkumné otázky. Pozor, otázky/hypotézy mohou vaše výstupy podporovat i vyvracet! Záleží na tom, co říkají data.
